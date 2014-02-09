@@ -15,12 +15,14 @@ Section 1.4 in the textbook (Reinforcement Learning, Sutton & Barto), provides a
 
 During the game, the state-values are updated in our attempt to get the actual estimates of the winning probability. In order to do this, we "back up" the previous state-value only during greedy moves. This rule is based on temporal-difference learning method using the notation:
 
+
 V(s) <- V(s) + a[V(s') - V(s)]     
 
-Where: s    = state before the greedy move
-       s'   = state after the move 
-       V(s) = estimated value of s
-       a    = learning rate (0.1)
+Where: 
+* s    = state before the greedy move
+* s'   = state after the move 
+* V(s) = estimated value of s
+* a    = learning rate (0.1)
 
 
 Observations:
