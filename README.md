@@ -4,7 +4,7 @@ Tic-tac-toe
 
 I have recreated the classic game of [Tic-tac-toe](http://en.wikipedia.org/wiki/Tic-tac-toe). This is a game between human vs computer. The objective of the program is to implement the artificial intelligence (AI) of the computer player using an algorithm based on Reinforcement Learning.
 
-This concept of this game is based from "Reinforcement Learning, An Introduction" by Richard S. Sutton and Andrew G. Barto. 
+The concept of this game is based from "Reinforcement Learning, An Introduction" by Richard S. Sutton and Andrew G. Barto. 
 
 System Requirements: Python 2.7 or higher version
 
